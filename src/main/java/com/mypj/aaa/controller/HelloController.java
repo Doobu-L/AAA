@@ -14,4 +14,9 @@ public class HelloController {
     return ResponseEntity.ok("Hellowwwwwwww");
   }
 
+  @GetMapping("")
+  public ResponseEntity<String> tttt(){
+    return ResponseEntity.ok("TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT");
+  }
+
 }
